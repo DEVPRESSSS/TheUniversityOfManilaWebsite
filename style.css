@@ -1181,7 +1181,156 @@ h3{
 
 
 
-/*Media Queries for About Us Page*/
+
+/* Admission Guidelines Section Styles */
+.admission-guidelines {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    color: #333;
+}
+
+.admission-guidelines .row {
+    margin-bottom: 40px;
+}
+
+.admission-guidelines .about-col h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.admission-guidelines .about-col h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60px;
+    background: #0cab21;
+}
+
+.admission-guidelines .about-col p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.admission-guidelines .admission-section,
+.admission-guidelines .conduct-section,
+.admission-guidelines .character-policy {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.admission-guidelines h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #444;
+    border-left: 4px solid #0cab21;
+    padding-left: 15px;
+}
+
+.admission-guidelines h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.admission-guidelines p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.admission-guidelines ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.admission-guidelines ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.admission-guidelines ul li ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.admission-guidelines ul li ul li {
+    margin-bottom: 6px;
+}
+
+
+/*------------------Registart Studies------------------->*/
+.university-registrar {
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff; /* White background for a clean look */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Max width for larger screens */
+}
+
+/* Section Title Styling */
+.university-registrar h2 {
+    font-size: 2.25rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Paragraph Styling */
+.university-registrar p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Contact Information Section */
+.university-registrar h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Contact Info Details */
+.contact-info .details {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.contact-info .details span {
+    display: block;
+    font-weight: 400;
+}
+
+/* Contact Info Block Styling */
+.contact-info .details strong {
+    font-weight: 600;
+    color: #333;
+}
+
+/* University Registrar Name Styling */
+.university-registrar p strong {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+
+
+/* Media Queries for About Us Page
 
 @media(max-width: 480px) {
     .sub-header {
@@ -1204,4 +1353,4 @@ h3{
     .about-col p {
         font-size: 0.9rem;
     }
-}
+} */
