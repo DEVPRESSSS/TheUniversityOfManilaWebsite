@@ -82,6 +82,8 @@ nav img{
 
 
 }
+
+
 .intro-text h1{
 
     font-size: 62px;
@@ -210,6 +212,200 @@ h3{
 }
 
 
+
+
+
+
+
+
+
+/* Campus */
+
+.campus{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+
+    flex-basis: 32%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+ 
+}
+
+.layer{
+
+
+    background: transparent;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.layer:hover{
+
+
+    top:0;
+    left:0;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.layer h3{
+
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+.layer:hover h3{
+
+    bottom: 50%;
+    opacity: 1;
+    
+}
+
+
+.campus h1{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*<-----------------------------Facilites---------------------------> */
+
+
+.facilities{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.facilities-col{
+
+    flex-basis: 32%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom:5%;
+    text-align: left;
+}
+
+
+.facilities-col img{
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col  h1{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.facilities h3{
+
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.facilities h1{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Contact Section */
+
+.cta{
+
+
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30,0.7)),url(/Images/Um_header.JPG) ;  
+}
+
+
+.cta h1{
+
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding: 0px;
+    color: #fff;
+}
+
+
+
+
+
+/* Footer  */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  
+}
+
+.footer h4{
+    
+      
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 600;
+}
+
+.footer h1{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 /*Media Queries*/
 
 @media(max-width: 700px){
@@ -255,7 +451,6 @@ h3{
 
     /*Course Section*/
 
-
     .row{
 
         flex-direction: column;
@@ -270,4 +465,743 @@ h3{
     }
 
 
+
+
+
+
+    /*Campus Section*/
+
+    .cta h1{
+            
+            font-size: 20px;
+    }
+
+
+
+    /* About us html file */
+    .about-col h1 {
+        font-size: 1.5rem;
+    }
+    
+    .president-message {
+        padding: 20px;
+    }
+    
+    .president-message h2 {
+        font-size: 1.3rem;
+    }
+
+
+
+
+
+
+
+    /* About us Page */
+
+
+    /*Um seal page*/
+    .um-seal {
+        width: 90%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+    
+    .seal-content {
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .seal-image-container {
+        min-width: 100%;
+    }
+    
+    .seal-image {
+        max-width: 70%;
+    }
+    
+    .seal-description {
+        min-width: 100%;
+    }
+    
+    .seal-description h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .seal-description h3 {
+        font-size: 1.2rem;
+    }
+    
+    .seal-symbols li, .seal-colors p, .um-mascot p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    /*Um hisotry page*/
+    .university-history {
+        width: 90%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+    
+    .history-content {
+        padding: 20px;
+    }
+    
+    .history-content h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .history-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .history-item {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .leader-card {
+        flex-direction: column;
+    }
+    
+    .leader-image {
+        max-width: 100%;
+        min-width: 100%;
+        height: 250px;
+    }
+    
+    .leader-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .leader-info {
+        padding: 15px;
+    }
+    
+    .timeline-item {
+        padding-left: 25px;
+    }
+    
+    .history-content p, 
+    .timeline-content, 
+    .achievement-list li, 
+    .international-list li,
+    .modern-developments ul li {
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+
+
+
+/*------------------About us page------------------->*/
+/* About Navigation Styles */
+.about-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-navigation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #0cab21;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    outline: none;
+}
+
+.about-navigation button:hover {
+    background-color: #0cab21;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('/api/placeholder/1200/600');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 100px;
+    font-size: 3.5rem;
+}
+
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.about-col {
+    flex-basis: 100%;
+    padding: 30px 2px;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-col p {
+    padding: 15px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.president-message {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.president-message h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.president-message p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.motto {
+    font-style: italic;
+    font-weight: 600;
+    color: #555;
+}
+
+
+
+
+/*------------------Philosophy of Education page------------------->*/
+
+.philosophy-of-education {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.about-col {
+    flex-basis: 100%;
+    padding: 30px 2px;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-col p {
+    padding: 15px 0;
+    line-height: 1.6;
+    color: #555;
+    font-style: italic;
+}
+
+.vision-wrapper, .mission-wrapper, .motto-wrapper, .objectives-wrapper {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.vision-wrapper h2, .mission-wrapper h2, .motto-wrapper h2, .objectives-wrapper h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.vision-wrapper p, .mission-wrapper p, .motto-wrapper p, .objectives-wrapper p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.mission-wrapper ul, .objectives-wrapper ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.mission-wrapper ul li, .objectives-wrapper ul li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+    color: #555;
+}
+
+.mission-wrapper ul li:before, .objectives-wrapper ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0cab21;
+}
+
+.mission-wrapper p strong, .motto-wrapper p strong {
+    color: #0cab21;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*------------------Um Seal------------------->*/
+.um-seal {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.seal-content {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.seal-image-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.seal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    border: 5px solid #fff;
+}
+
+.seal-description {
+    flex: 2;
+    min-width: 300px;
+}
+
+.seal-description h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #0cab21;
+    padding-bottom: 10px;
+}
+
+.seal-description h3 {
+    color: #0cab21;
+    margin: 20px 0 10px;
+    font-size: 1.4rem;
+}
+
+.seal-symbols {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.seal-symbols li {
+    padding: 8px 0;
+    line-height: 1.6;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.symbol-name, .color-name, .mascot-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.seal-colors, .um-mascot {
+    margin-top: 20px;
+}
+
+.seal-colors p, .um-mascot p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+/*------------------Um history------------------->*/
+.university-history {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.history-content {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.history-content h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin: 25px 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0cab21;
+}
+
+.history-content h3 {
+    color: #0cab21;
+    font-size: 1.4rem;
+    margin: 20px 0 10px;
+}
+
+.history-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.history-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 30px;
+}
+
+.history-text {
+    flex: 2;
+    min-width: 300px;
+}
+
+.history-image {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.founding-image {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 5px solid #fff;
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #666;
+}
+
+/* Timeline styling */
+.history-timeline {
+    margin: 30px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.history-timeline:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: #0cab21;
+    border-radius: 3px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 3px solid #0cab21;
+    border-radius: 50%;
+}
+
+.timeline-year {
+    font-weight: 600;
+    color: #0cab21;
+    margin-bottom: 5px;
+}
+
+.timeline-content {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Leadership cards */
+.leader-card {
+    display: flex;
+    margin: 30px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.leader-image {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.leader-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leader-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.leader-info h3 {
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.leader-title {
+    font-style: italic;
+    color: #0cab21;
+    font-weight: 500;
+    margin-bottom: 15px !important;
+}
+
+/* Achievement lists */
+.achievement-list, .international-list {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.achievement-list li, .international-list li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+    color: #555;
+}
+
+.achievement-list li:before, .international-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0cab21;
+    font-weight: bold;
+}
+
+.modern-developments ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.modern-developments ul li {
+    line-height: 1.6;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+    color: #555;
+}
+
+.modern-developments ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0cab21;
+    font-weight: bold;
+}
+
+.history-conclusion {
+    background-color: #f0f8f0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0cab21;
+    margin-top: 30px;
+}
+
+.history-conclusion h2 {
+    border-bottom: none;
+    color: #0cab21;
+}
+
+
+
+
+/* Admission Policies Section Styles */
+.admission-policies {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    color: #333;
+}
+
+.admission-policies .row {
+    margin-bottom: 40px;
+}
+
+.admission-policies .about-col h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.admission-policies .about-col h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 60px;
+    background: #0cab21;
+}
+
+.admission-policies .about-col p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.admission-requirements, 
+.admission-policies-details, 
+.conduct-discipline, 
+.character-guidelines {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.admission-policies h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #444;
+    border-left: 4px solid #0cab21;
+    padding-left: 15px;
+}
+
+.admission-policies p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.character-guidelines ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.character-guidelines ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.character-guidelines ul li ul {
+    margin-top: 8px;
+}
+
+.character-guidelines ul li ul li {
+    margin-bottom: 6px;
+}
+
+
+
+
+/*Media Queries for About Us Page*/
+
+@media(max-width: 480px) {
+    .sub-header {
+        height: 40vh;
+    }
+    
+    .sub-header h1 {
+        font-size: 1.5rem;
+        margin-top: 60px;
+    }
+    
+    .about-us {
+        width: 90%;
+    }
+    
+    .president-message {
+        padding: 15px;
+    }
+    
+    .about-col p {
+        font-size: 0.9rem;
+    }
 }
