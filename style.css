@@ -1330,27 +1330,36 @@ h3{
 
 
 
-/* Media Queries for About Us Page
 
-@media(max-width: 480px) {
-    .sub-header {
-        height: 40vh;
-    }
-    
-    .sub-header h1 {
-        font-size: 1.5rem;
-        margin-top: 60px;
-    }
-    
-    .about-us {
-        width: 90%;
-    }
-    
-    .president-message {
-        padding: 15px;
-    }
-    
-    .about-col p {
-        font-size: 0.9rem;
-    }
-} */
+
+/*------------------College of liberal Arts Page------------------->*/
+
+.faculty-section {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.faculty-member {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.faculty-title {
+    font-style: italic;
+    color: #555;
+}
+
+
+
+
+
+/*------------------College of Education------------------>*/
+.program-objectives {
+    margin-bottom: 25px;
+}
+
+
+
+
+/*------------------College of Criminology------------------ sames design above>*/
