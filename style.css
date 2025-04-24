@@ -51,7 +51,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
    
 }
 
@@ -1363,3 +1363,85 @@ h3{
 
 
 /*------------------College of Criminology------------------ sames design above>*/
+
+
+
+
+
+/*------------------Library Content Css------------------->*/
+
+.header-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;    
+    text-align: center;
+
+}
+
+.header-section p {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.library-card {
+    background-color: #ffffff;
+    border-left: 4px solid #0cab21;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.library-card h4 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.important-note {
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.flowchart-placeholder {
+    border: 2px dashed #ccc;
+    padding: 30px;
+    margin: 15px 0;
+    text-align: center;
+    color: #666;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-left: 4px solid #0cab21;
+}
+
+
+
+
+
+/*------------------Learning center------------------->*/
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.images img {
+    width: calc(33.333% - 14px);
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: translateY(-5px);
+}
