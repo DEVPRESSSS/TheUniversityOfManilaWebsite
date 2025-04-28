@@ -20,7 +20,7 @@
         <nav>
 
                <!--Um logo picture-->
-                <a href="index.html"> <img src="/Images/UmLogo.png"> </a>
+               <a href="index.html"> <img src="/Images/Um.png"> </a>
 
                 <!--Nav links-->
                 <div class="nav-links" id="navLinks" >
@@ -29,13 +29,15 @@
                     <i class="fa fa-times" onclick="hideMenu()" ></i>
                      <ul>
                         <li>  <a href="/index.html"> HOME</a> </li>
+                        <li>  <a href="/about.html"> ABOUT</a> </li>
                         <li>  <a href="/AdmissionPage.html"> ADMISSION</a> </li>
                         <li>  <a href="/Academics.html"> ACADEMICS</a> </li>
                         <li>  <a href="/Research.html"> RESEARCH</a> </li>
                         <li>  <a href="/Linkages.html"> LINKAGES</a> </li>
                         <li>  <a href="/Community.html"> COMMUNITY</a> </li>
                         <li>  <a href="/Alumni.html"> ALUMNI</a> </li>
-                        <li>  <a href="/about.html"> ABOUT</a> </li>
+                        <li>  <a href="/Events.html"> EVENTS</a> </li>
+
                      </ul>
                      <!--Menu Icon-->
 
@@ -50,21 +52,19 @@
 
     <section class="about-navigation">
         <button onclick="showContent('highschool-elementary')">High School And Elementary</button>
-        <button onclick="showSection('undergraduate')">Liberal Arts</button>       
-        <button onclick="showContent('university-president')">Business AD & Accountancy</button>
-        <button onclick="showSection('philosophy-of-education')">Education</button>
-        <button onclick="showContent('um-seal')">Criminology</button>
-        <button onclick="showContent('um-seal')">Foreign service</button>
-        <button onclick="showContent('um-seal')">Criminology</button>
-        <button onclick="showContent('um-seal')">Foreign service</button>
-        <button onclick="showContent('um-seal')">H R M</button>
-        <button onclick="showContent('um-seal')">Engineering</button>
-        <button onclick="showContent('um-seal')">Computer Science</button>
-        <button onclick="showContent('um-seal')">Law</button>
-        <button onclick="showContent('um-seal')">Graduate Studies</button>
-        <button onclick="showContent('um-seal')">Library</button>
-        <button onclick="showContent('um-seal')">Learning resoureces center</button>
-        <button onclick="showContent('um-seal')">Testing and Evaluation center</button>
+        <button onclick="showSection('liberal-arts')">Liberal Arts</button>       
+        <button onclick="showContent('business-administration')">Business AD & Accountancy</button>
+        <button onclick="showSection('college-of-education')">Education</button>
+        <button onclick="showContent('college-of-criminology')">Criminology</button>
+        <button onclick="showContent('foreign-service')">Foreign service</button>
+        <button onclick="showContent('hotel-restaurant-management')">H R M</button>
+        <button onclick="showContent('engineering')">Engineering</button>
+        <button onclick="showContent('computer-science')">Computer Science</button>
+        <button onclick="showContent('law')">Law</button>
+        <button onclick="showContent('gs')">Graduate Studies</button>
+        <button onclick="showContent('library')">Library</button>
+        <button onclick="showContent('lrc')">Learning resoureces center</button>
+        <button onclick="showContent('tec')">Testing and Evaluation center</button>
     </section>
 
 
@@ -113,7 +113,7 @@
     
 
     <!--College of liberal arts-->
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="liberal-arts">
         <div class="row">
             <div class="about-col">
                 <h1>College of Liberal Arts</h1>
@@ -165,7 +165,7 @@
 
 
     <!--College of Business Administration and Accountancy-->
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="business-administration">
         <div class="row">
             <div class="about-col">
                 <h1>College of Business Administration and Accountancy</h1>
@@ -243,7 +243,7 @@
 
 
     <!--College of Education-->
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="college-of-education">
         <div class="row">
             <div class="about-col">
                 <h1>College of Education</h1>
@@ -298,7 +298,7 @@
 
     <!--College of Criminology-->
 
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="college-of-criminology">
         <div class="row">
             <div class="about-col">
                 <h1>College of Criminology</h1>
@@ -347,7 +347,7 @@
 
 
     <!--College of Foreign Service-->
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="foreign-service">
         <div class="row">
             <div class="about-col">
                 <h1>School of Foreign Service</h1>
@@ -392,7 +392,7 @@
 
     <!--College of Hotel and Restaurant Management-->
 
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="hotel-restaurant-management">
         <div class="row">
             <div class="about-col">
                 <h1>College of Hotel and Restaurant Management</h1>
@@ -440,7 +440,7 @@
 
 
 
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="engineering">
         <div class="row">
             <div class="about-col">
                 <h1>College of Engineering
@@ -492,7 +492,7 @@
 
     <!--Computer Science -->
 
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="computer-science">
         <div class="row">
             <div class="about-col">
                 <h1>College of computer science
@@ -542,9 +542,9 @@
 
 
     <!--College of Law-->
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="law">
         <div class="row">
-            <div class="about-col">
+            <div class="about-col"> 
                 <h1>College of  Law
                 </h1>
                 
@@ -626,7 +626,7 @@
 
 
  <!--Gradaute Studies-->
- <section class="admission-guidelines">
+ <section class="admission-guidelines" id="gs">
     <div class="row">
         <div class="about-col">
             <h1>Graduate Studies</h1>
@@ -704,12 +704,12 @@
 
 <!--Library-->
 
-    <div class="header-section">
+    <!-- <div class="header-section" id="library">
         <h1>UNIVERSITY LIBRARY</h1>
         <p>"The library is the Heart of the University and the librarian is the Soul of the library" - Korsak (1994)</p>
-    </div>
+    </div> -->
 
-    <section class="admission-guidelines">
+    <section class="admission-guidelines" id="library">
         <div class="row">
             <div class="about-col">
                 <h1>OVERVIEW OF THE LIBRARY</h1>
@@ -981,7 +981,7 @@
 
     <!--Learning center-->
 
-    <section class="admission-policies" id="highschool-elementary">
+    <section class="admission-policies" id="lrc">
         <div class="row">
             <div class="about-col">
                 <h1>Learning resource center</h1>
@@ -1033,7 +1033,7 @@
 
     
    <!--Testing and Evaluation Center-->
-    <section class="admission-policies" id="highschool-elementary">
+    <section class="admission-policies" id="tec">
         <div class="row">
             <div class="about-col">
                 <h1>Testing and Evaluation Center</h1>
@@ -1059,7 +1059,9 @@
         <h1>About Us</h1>
         <p>We are a premier institution dedicated to academic excellence, research, and innovation. </br> Our university offers a wide range of programs designed to empower students with the knowledge and skills needed for success in today's global society.</p>
         <div class="icons">
-            <i class="fa fa-facebook-official"></i>
+            <a href="https://www.facebook.com/groups/2138718463040597" target="_blank">
+                <i class="fa fa-facebook-official"></i>
+              </a>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-twitter"></i>
         </div>

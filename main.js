@@ -15,7 +15,7 @@ function hideMenu() {
 //Display current section in about us page
 
 function showContent(sectionId) {
-    const allSections = document.querySelectorAll('.about-us, .philosophy-of-education, .um-seal, .university-history' );
+    const allSections = document.querySelectorAll('.about-us, .philosophy-of-education, .um-seal, .university-history, .admission-guidelines, .admission-policies' );
     allSections.forEach(section => {
         section.style.display = 'none';
     });
@@ -31,7 +31,7 @@ function showSection(sectionId) {
 }
 
 function initPage() {
-    const allSections = document.querySelectorAll('.about-us, .philosophy-of-education, .um-seal, .university-history');
+    const allSections = document.querySelectorAll('.about-us, .philosophy-of-education, .um-seal, .university-history, .admission-guidelines,  .admission-policies');
     allSections.forEach(section => {
         section.style.display = 'none';
     });

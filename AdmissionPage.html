@@ -20,7 +20,7 @@
         <nav>
 
                <!--Um logo picture-->
-                <a href="index.html"> <img src="/Images/UmLogo.png"> </a>
+               <a href="index.html"> <img src="/Images/Um.png"> </a>
 
                 <!--Nav links-->
                 <div class="nav-links" id="navLinks" >
@@ -29,13 +29,15 @@
                     <i class="fa fa-times" onclick="hideMenu()" ></i>
                      <ul>
                       <li>  <a href="/index.html"> HOME</a> </li>
+                      <li>  <a href="/about.html"> ABOUT</a> </li>
                       <li>  <a href="/AdmissionPage.html"> ADMISSION</a> </li>
                       <li>  <a href="/Academics.html"> ACADEMICS</a> </li>
                       <li>  <a href="/Research.html"> RESEARCH</a> </li>
                       <li>  <a href="/Linkages.html"> LINKAGES</a> </li>
                       <li>  <a href="/Community.html"> COMMUNITY</a> </li>
                       <li>  <a href="/Alumni.html"> ALUMNI</a> </li>
-                      <li>  <a href="/about.html"> ABOUT</a> </li>
+                      <li>  <a href="/Events.html"> EVENTS</a> </li>
+
                      </ul>
                      <!--Menu Icon-->
 
@@ -51,10 +53,11 @@
     <section class="about-navigation">
         <button onclick="showContent('highschool-elementary')">High School And Elementary</button>
         <button onclick="showSection('undergraduate')">Undergraduate Program</button>       
-        <button onclick="showContent('university-president')">Graduate Studies</button>
-        <button onclick="showSection('philosophy-of-education')">Law</button>
-        <button onclick="showContent('um-seal')">International Students</button>
-        <button onclick="showContent('um-seal')">Scholarship and Grants</button>
+        <button onclick="showContent('graduate-studies')">Graduate Studies</button>
+        <button onclick="showSection('law')">Law</button>
+        <button onclick="showContent('international-students')">International Students</button>
+        <button onclick="showContent('scholarships-grants')">Scholarship and Grants</button>
+        <button onclick="showContent('university-registrar')">Registrar</button>
     </section>
 
 
@@ -242,7 +245,7 @@
 
 
   <!--Graduate Studies-->
-  <section class="admission-guidelines">
+  <section class="admission-guidelines" id="graduate-studies">
     <div class="row">
       <div class="about-col">
         <h1>Graduate Studies Admission Requirements</h1>
@@ -314,7 +317,7 @@
   
 
 
-  <section class="admission-guidelines">
+  <section class="admission-guidelines" id="law">
     <div class="row">
       <div class="about-col">
         <h1>College of Law: Admission Policies and Requirements</h1>
@@ -404,7 +407,7 @@
 
   <!--International Students-->
   
-  <section class="admission-guidelines">
+  <section class="admission-guidelines" id="international-students">
     <div class="row">
       <div class="about-col">
         <h1>International Students</h1>
@@ -429,7 +432,7 @@
 
 
   <!--Scholarship and grants-->
-  <section class="admission-guidelines">
+  <section class="admission-guidelines" id="scholarships-grants">
     <div class="row">
       <div class="about-col">
         <h1>Scholarships and Grants</h1>
@@ -521,7 +524,7 @@
 
 <!--Registrar-->
 
-<section class="university-registrar">
+<section class="university-registrar" id="university-registrar">
     <div class="row">
       <div class="about-col">
         <h1>University Registrar</h1>
@@ -559,9 +562,11 @@
         <h1>About Us</h1>
         <p>We are a premier institution dedicated to academic excellence, research, and innovation. </br> Our university offers a wide range of programs designed to empower students with the knowledge and skills needed for success in today's global society.</p>
         <div class="icons">
+          <a href="https://www.facebook.com/groups/2138718463040597" target="_blank">
             <i class="fa fa-facebook-official"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
+          </a>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
         </div>
 
     </section>
