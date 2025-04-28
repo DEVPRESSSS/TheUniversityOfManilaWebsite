@@ -362,6 +362,9 @@ nav .fa{
     transform: translateY(-20px);
 }
 
+
+
+
 /* Facilities Section */
 .facilities {
     width: 90%;
@@ -727,6 +730,13 @@ nav .fa{
     }
 
 
+
+    /*-- Alumni -- */
+
+    .sub-UMMA{
+
+        font-size: 0px;
+    }
 
 }
 
